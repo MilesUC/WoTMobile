@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Woman Talent",
+    "slug": "WoTMobileApp",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EE4296"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.WoT.WoTMobileApp"
+    },
+    "android": {
+      "package": "com.WoT.WoTMobileApp",
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/WotLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4d52967d-c97d-4c73-b0e8-501bbda34258"
+      }
+    }
+  }
+}

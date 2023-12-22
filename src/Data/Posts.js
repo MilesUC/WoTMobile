@@ -1,0 +1,143 @@
+import Images from '../Utils/Images'
+
+const Posts = [
+  {
+    profile_picture: Images.USERS.USER5,
+    name: 'Shivam Kalra',
+    title: 'Experta en Redes Sociales y Marketing',
+    community: 'Expertos en IA',
+    timeAgo: 6,
+    connection: 'Amiga',
+    content: 'Recientemente participé como oradora en un congreso de Marketing Digital en Santiago. Fue una experiencia inspiradora. Si buscas a alguien apasionado por las redes sociales y el marketing, ¡contáctame!',
+    hasImage: true,
+    postImage: Images.POSTS.POST2,
+    shares: 37,
+    comments: 178,
+    likes: 856,
+    isLiked: false
+  },
+  {
+    profile_picture: Images.USERS.USER2,
+    community: 'Científicas',
+    name: 'Asshi',
+    community: 'Expertos en IA',
+    title: 'Ingeniera en MS Technologies',
+    timeAgo: 1,
+    connection: 'Amiga',
+    content: 'Recientemente tuve el honor de representar a Chile en el Congreso Internacional de Ingeniería en Madrid. Fue una experiencia increíble. ¡Estoy emocionada por lo que el futuro tiene reservado para mí!',
+    hasImage: false,
+    shares: 185,
+    comments: 0,
+    likes: 11556
+  },
+  {
+    profile_picture: Images.USERS.USER3,
+    community: 'Deportes extremos',
+    name: 'Priya Sharma',
+    community: 'Expertos en IA',
+    title: 'Subgerente en su empresa',
+    timeAgo: 20,
+    connection: 'Amiga',
+    content: 'Recientemente obtuve mi certificación en Desarrollo de Software. Estoy ansiosa por unirme a un equipo en Chile y contribuir con mis habilidades. ¡Si tienes alguna oportunidad, házmelo saber!',
+    hasImage: false,
+    shares: 0,
+    comments: 3,
+    likes: 10,
+    isLiked: false
+  },
+  {
+    profile_picture: Images.USERS.USER4,
+    name: 'Olivia',
+    community: 'Expertos en IA',
+    title: 'Socia en Banco Santander Chile',
+    timeAgo: 16,
+    connection: 'Amiga',
+    content: 'Recientemente me certifiqué en Estrategias de Marketing Digital. ¡Estoy en la búsqueda de oportunidades en Chile para aplicar mis conocimientos! Si tienes alguna sugerencia, no dudes en compartirla.',
+    hasImage: false,
+    shares: 187,
+    comments: 19,
+    likes: 1500,
+    isLiked: false
+  },
+  {
+    profile_picture: Images.USERS.USER1,
+    community: 'Expertos en IA',
+    name: 'Laura Pérez',
+    community: 'Expertos en IA',
+    title: 'Directora ejecutiva',
+    timeAgo: 2,
+    content: '¡Estoy emocionada de compartir que recientemente obtuve mi diploma en Trabajo Social! 👩‍🎓 Estoy buscando oportunidades laborales en Chile para aplicar mis conocimientos y habilidades. Si conoces alguna oportunidad, ¡por favor avísame!',
+    hasImage: true,
+    postImage: Images.POSTS.POST1,
+    shares: 10,
+    comments: 5,
+    likes: 250
+  },
+  {
+    profile_picture: Images.USERS.USER1,
+    community: 'Expertos en IA',
+    name: 'Aanya Singh',
+    title: 'Química en busca de oportunidades laborales',
+    timeAgo: 10,
+    content: 'Recientemente completé una certificación en Química Avanzada. Estoy ansiosa por aplicar mis conocimientos en un entorno de trabajo en Chile. ¡Si tienes alguna pista, házmelo saber!',
+    hasImage: false,
+    shares: 7,
+    comments: 0,
+    likes: 590,
+    isLiked: false
+  },
+  {
+    profile_picture: Images.USERS.USER2,
+    community: 'Científicas',
+    name: 'Amelia',
+    title: 'Buscando oportunidades en Inteligencia Artificial y Machine Learning',
+    timeAgo: 12,
+    content: 'Recientemente me gradué con honores en Inteligencia Artificial y Machine Learning. Estoy lista para asumir nuevos desafíos en Chile. ¡Contáctame si tienes alguna oportunidad!',
+    hasImage: false,
+    shares: 0,
+    comments: 16,
+    likes: 0,
+    isLiked: false
+  },
+  {
+    profile_picture: Images.USERS.USER3,
+    community: 'Deportes extremos',
+    name: 'Rishi Nagar',
+    title: 'Influencer con experiencia en Redes Sociales',
+    timeAgo: 23,
+    connection: 'Amiga',
+    content: 'Hace poco completé una certificación en Gestión de Redes Sociales. ¡Estoy emocionada por compartir mi experiencia y trabajar con marcas en Chile! Si deseas colaborar, házmelo saber.',
+    hasImage: false,
+    shares: 1,
+    comments: 7,
+    likes: 17,
+    isLiked: true
+  },
+  {
+    profile_picture: Images.USERS.USER4,
+    name: 'Isabella',
+    title: 'En búsqueda de oportunidades laborales',
+    timeAgo: 19,
+    connection: 'Amiga',
+    content: 'Recientemente obtuve una certificación en Administración de Empresas. Estoy ansiosa por aplicar mis habilidades en un entorno laboral en Chile. ¡Si tienes una oferta de trabajo, no dudes en contactarme!',
+    hasImage: false,
+    shares: 10,
+    comments: 4,
+    likes: 67,
+    isLiked: true
+  },
+  {
+    profile_picture: Images.USERS.USER5,
+    name: 'Ashu Chaudhary',
+    title: 'CEO de mi propia empresa',
+    timeAgo: 1,
+    content: 'Estoy emocionada de anunciar la apertura de mi propia empresa en Chile. ¡Es un gran paso en mi carrera! Si estás interesado en colaborar o conocer más sobre mi negocio, no dudes en contactarme.',
+    hasImage: false,
+    shares: 50,
+    comments: 3,
+    likes: 8651,
+    isLiked: false
+  }
+]
+
+export default Posts
